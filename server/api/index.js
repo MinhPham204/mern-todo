@@ -12,7 +12,7 @@ const app = express();
 // CORS: whitelist domain client (Vercel) & local
 const allowed = [
   "http://localhost:5173",
-  "https://<client-vercel>.vercel.app"
+  "https://mern-todo-gilt-two.vercel.app"
 ];
 app.use(cors({ origin: allowed, credentials: true }));
 

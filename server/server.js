@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 
-import todoRouter from "./routes/todo.routes.js";
+import todoRouter from "./src/routes/todo.routes.js";
 
 dotenv.config();
 const app = express();
